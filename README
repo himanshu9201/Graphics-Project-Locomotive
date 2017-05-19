@@ -1,0 +1,25 @@
+Graphics Project
+Peter McPadden
+
+Base code was taken from my own hw6, which was based on ex15, there are also a few lines of code adapted from ex21.
+
+Everything was implemented using code. The smoke was done using my own sphere code.
+
+Main things to pay attention to:
+Movement of the rods with the wheels
+Movement of trees/landscape especially with respect to the wheels. The wheels should not look like they are sliding on the rails.
+Smoke movement/fade-away
+General quality of geometry of the train itself (given that it is done entirely in code). The cab has been modified to have a more detailed and less boxy look.
+Wheels on each side are 90 degrees out of phase like on a real locomotive, allows movement from any wheel position.
+Spotlight on the front of the train. This is better seen when night mode is on, but is visible in day mode as well.
+
+I also left the controls unlocked so you can zoom out really far to see how everything works, and look at things from all angles.
+
+Key bindings
+
+  s/S	 Decrease/increase speed
+  d/D  switch day/night mode
+  arrows     Change view angle
+  PgDn/PgUp  Zoom in and out
+  0          Reset view angle
+  ESC        Exit
