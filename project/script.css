@@ -187,7 +187,7 @@ animation-duration: 4s;
 animation-iteration-count: infinite;
 animation-timing-function: linear;
 }
-
+ 
 .elem .moving .moving-in h5{
   color: black;
   display: inline-block;
